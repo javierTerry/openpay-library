@@ -1,5 +1,5 @@
 {
-  "name": "javierterry/openpay-library",
+  "name": "javierTerry/openpay-library",
   "description": "se ustructura la libreria de open pay para usarla con injeccion de dependencias (composer)",
   "minimum-stability": "dev",
   "license": "MIT",

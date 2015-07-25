@@ -1,0 +1,24 @@
+{
+  "name": "javierterry/openpay-library",
+  "description": "se ustructura la libreria de open pay para usarla con injeccion de dependencias (composer)",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Hernandez",
+      "homepage": "https://github.com/javierTerry"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "4.0.*"
+  },
+  
+  "autoload": {
+      "psr-4": {
+          "OpenPay\\Base\\": "src/OpenPay"
+      }
+    }
+}
